@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Contact Page</title>
+        <link rel="stylesheet" href="style.css" type="text/css">
+    </head>
+
+    <body>
+        <header>
+            <img src="http://placehold.it/240x80">
+            <nav class="navigation">
+                <a href="./index.html">Home</a>
+                <a class = "active" href="./contact.html">Contact Us</a>
+            </nav>
+        </header>
+
+        <section id="form">
+            <h1>Contact Us</h1>
+            <p> Leave your details below and we will get back to you as soon as possible</p>
+
+            <form>
+                <label>Name:</label>
+                <input type="text" name="name" placeholder="your name">
+
+                <br>
+
+                <label>Email Address:</label>
+                <input type="email" name="email" placeholder="your email">
+
+                <br>
+
+                <label for="country">Country</label>
+                <select id="country" name="country">
+                    <option value="SouthAfrica">South Africa</option>
+                    <option value="Botswana">Botswana</option>
+                    <option value="Namibia">Namibia</option>
+                </select>
+
+                <br>
+
+                <label>Message:</label>
+                <textarea id="message" name="message" cols="80" rows="5"></textarea>
+
+                <br>
+
+                <button type="submit">Submit</button>
+
+
+            </form>
+        </section>
+
+    </body>
+</html>
